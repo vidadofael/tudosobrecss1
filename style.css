@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    border: 1px solid red;
+}
+
+nav {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    align-items: center;
+    /*height: 100vh;*/
+    height: 6rem;
+    background-color: black;
+    color: aliceblue;
+    padding: 0 2.4rem; /*0 - em cima e embaixo  |  24px para cada lado*/
+
+}
+
+ul {
+    display: flex;
+    list-style: none; /*TIRA AS BOLINHAS IDENTIFICADORAS DA FRENTE DOS ELEMENTOS*/
+    gap: 3rem; /*30px - ESPAÇO ENTRE OS ITENS DA LITAS E NÃO O ESPAÇO EM CADA ITEM, OK?*/
+    
+
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+.logo {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-color: aliceblue;
+}
